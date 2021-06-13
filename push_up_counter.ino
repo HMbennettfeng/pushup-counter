@@ -1,10 +1,9 @@
-/* PUSH UP COUNTER
+/* Push up counter
 
-An ultrasonic sensor measures the distance between you and your head, if the distance is larger than 20 cm a rgb-led will shine red,
-if the distance is between 10 and 20 cm, it turns magenta
-and if it is less than 10 cm it turns blue, and a point appears on a lcd screen.
-Every ten pushups it makes a sound.
-You can reset the score with the push of a button.
+An ultrasonic sensor measures the distance between you and the floor, if the distance is greater than 25 cm the light will shine red,
+if the distance is between 15 and 25 cm, it turns purple telling you to move closer
+and if the distance is less than 15 cm it will turn blue and add 1 pushup and 32 calories
+You can reset the counter with a button
  */
  
 #include <LiquidCrystal.h> // include LCD library for lcd screen
